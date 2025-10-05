@@ -65,7 +65,7 @@ Tiga pilar keamanan informasi:
 ## 4. Dokumentasi
 - Buat screenshot evidence setup repo GitHub (`repo name`, `initial commit`). Simpan di folder `screenshots/`.  
 - Lampiran screenshot
-  ```markdown
+  
   ![Setup GitHub](screenshots/repo_setup.png)
 
 ---
