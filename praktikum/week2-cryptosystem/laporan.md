@@ -1,15 +1,16 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 2  
+Topik: Cryptosystem  
+Nama: Zaki Fauzan Sulton  
+NIM: 230202792  
+Kelas: 5IKRA  
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
-
+1. Mengidentifikasi komponen dasar kriptosistem (plaintext, ciphertext, kunci, algoritma).  
+2. Menggambarkan proses enkripsi dan dekripsi sederhana.  
+3. Mengklasifikasikan jenis kriptosistem (simetris dan asimetris).  
 ---
 
 ## 2. Dasar Teori
@@ -20,7 +21,7 @@ Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 
 ## 3. Alat dan Bahan
 (- Python 3.x  
-- Visual Studio Code / editor lain  
+- Visual Studio Code  
 - Git dan akun GitHub  
 - Library tambahan (misalnya pycryptodome, jika diperlukan)  )
 
@@ -64,10 +65,9 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
+1. Sebutkan komponen utama dalam sebuah kriptosistem.  
+2. Apa kelebihan dan kelemahan sistem simetris dibandingkan asimetris?  
+3. Mengapa distribusi kunci menjadi masalah utama dalam kriptografi simetris?  
 ---
 
 ## 8. Kesimpulan
