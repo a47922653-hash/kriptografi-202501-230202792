@@ -159,12 +159,12 @@ Berdasarkan percobaan, seluruh fungsi aritmetika modular, GCD, invers modular, d
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
-```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+```
+commit 26c05f928502ae88c2ca43b174de30f783b5bc4f
+Author: Zaki Fauzan Sulton <a47922653@gmail.com>
+Date:   Sat Oct 18 16:56:21 2025 +0700
+
+    week3-modmath-gcd )
+
 ```
