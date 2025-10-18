@@ -1,20 +1,49 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 3  
+Topik: Modular Math  
+Nama: Zaki Fauzan Sulton  
+NIM: 230202793  
+Kelas: 5IKRA  
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+1. Menyelesaikan operasi aritmetika modular.  
+2. Menentukan bilangan prima dan menghitung GCD (Greatest Common Divisor).  
+3. Menerapkan logaritma diskrit sederhana dalam simulasi kriptografi.
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Aritmetika modular adalah sistem perhitungan yang menggunakan sisa hasil bagi terhadap suatu bilangan tetap yang disebut **modulus**. Dalam sistem ini, dua bilangan dianggap kongruen jika memiliki sisa yang sama saat dibagi dengan modulus tersebut, ditulis sebagai:
+
+$$
+a \equiv b \pmod{n}
+$$
+
+Operasi seperti penjumlahan, pengurangan, dan perkalian dilakukan dengan cara mengambil hasil modulo *n*. Prinsip ini menjaga nilai tetap berada dalam rentang 0 hingga *n−1* dan menjadi dasar bagi banyak algoritma komputasi modern, terutama dalam bidang kriptografi.
+
+Konsep penting dalam aritmetika modular adalah **invers modular**, yaitu bilangan *x* yang memenuhi:
+
+$$
+a \. x \equiv 1 \pmod{n}
+$$
+
+Invers ini hanya ada jika *a* dan *n* relatif prima, yaitu:
+
+$$
+\gcd(a, n) = 1
+$$
+
+Untuk menghitungnya digunakan **Algoritma Extended Euclidean**, yang tidak hanya mencari *Greatest Common Divisor (GCD)* antara dua bilangan, tetapi juga koefisien yang memungkinkan pencarian invers modular. Invers modular sangat penting dalam algoritma kriptografi seperti **RSA**, karena digunakan dalam proses pembentukan kunci publik dan privat.
+
+Selain itu, **logaritma diskrit** merupakan bagian lain dari aritmetika modular yang berfungsi mencari eksponen *x* pada persamaan:
+
+$$
+a^x \equiv b \pmod{n}
+$$
+
+Masalah ini sangat sulit diselesaikan untuk modulus besar, dan kesulitannya menjadi dasar keamanan berbagai sistem kriptografi modern seperti **Diffie–Hellman Key Exchange** dan **ElGamal**. Dengan demikian, aritmetika modular bukan hanya konsep matematika dasar, tetapi juga fondasi utama dari keamanan data dalam dunia digital.
 
 ---
 
