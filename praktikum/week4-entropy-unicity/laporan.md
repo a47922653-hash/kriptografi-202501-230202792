@@ -1,6 +1,7 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: 4  
 Topik: Entropy & Unicity Distance (Evaluasi Kekuatan Kunci dan Brute Force)
+
 Nama: Zaki Fauzan Sulton  
 NIM: 230202792  
 Kelas: 5IKRA  
@@ -125,12 +126,10 @@ Hasil eksekusi program entropy unicity:
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
 ```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit bdee0547946122f7b53c2713dbc6af2ddf092783
+Author: Zaki Fauzan Sulton <a47922653@gmail.com>
+Date:   Sat Oct 25 12:37:03 2025 +0700
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+    week4-entropy-unicity
 ```
